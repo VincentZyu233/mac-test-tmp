@@ -7,6 +7,7 @@ GitHub Actions workflow 用于在 macOS 上创建临时 SSH 会话。
 1. 推送包含 `start` 关键字的提交信息到 main 分支：
    ```bash
    git commit -m "start a temp mac"
+   git commit --allow-empty -m "start a temp mac"
    git push
    ```
 
